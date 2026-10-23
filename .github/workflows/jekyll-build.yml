@@ -1,7 +1,6 @@
 name: Jekyll build
 
 on:
-  workflow_dispatch:
   # Run after bad-pr check
   workflow_run:
     workflows: ["Cleanup bad PR"]
